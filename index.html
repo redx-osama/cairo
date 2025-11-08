@@ -82,7 +82,7 @@
 
     <form onsubmit="return loginUser()">
       <input type="text" id="username" placeholder="اسم المستخدم" required>
-      <input type="password" id="password" placeholder="كلمة المرور" required>
+      <input type="password" id="password" placeholder="الرقم القومي" required>
       <button type="submit">دخول</button>
       <div class="error" id="error-msg">❌ اسم المستخدم أو كلمة المرور غير صحيحة</div>
     </form>
@@ -95,7 +95,7 @@
       let errorMsg = document.getElementById("error-msg");
 
       // بيانات الدخول الصحيحة
-      let correctUser = "ahmed";
+      let correctUser = "mezo";
       let correctPass = "12345";
 
       if(user === correctUser && pass === correctPass){
